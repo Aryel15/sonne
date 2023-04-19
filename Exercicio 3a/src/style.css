@@ -1,0 +1,78 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #081B31;
+  color: #C3AC81;
+}
+nav{
+  margin: 30px auto 0 auto;
+  display: flex;
+  justify-content: center;
+}
+main{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+}
+h2{
+  text-align: center;
+}
+h3{
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.instruções{
+  width: 80vw;
+  background-color: #0b2543;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  margin: 0 auto;
+}
+table{
+  margin: 10px auto;
+  border-collapse: collapse;
+  border: #C3AC81 1px solid;
+}
+thead{
+  background-color: #0b2543;
+  text-align: center;
+}
+th{
+  padding: 5px 10px;
+  min-width: 20vw;
+}
+th:hover{
+  cursor: pointer;
+}
+td{
+  text-align: center;
+  padding: 5px 10px;
+}
+td+td{
+  border-left: #C3AC81 1px solid;
+  border-right: #C3AC81 1px solid;
+}
+
+footer{
+  text-align: center;
+}
+footer a{
+  color: #ab7d27;
+}

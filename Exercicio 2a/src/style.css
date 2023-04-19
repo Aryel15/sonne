@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #081B31;
+    color: #C3AC81;
+}
+nav{
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    width: 200px;
+    padding: 5px;
+    background-color: #081B31;
+    border-color: #162231 solid 1px;
+    color: #C3AC81;
+}
+select:hover{
+    cursor: pointer;
+}
+.instruções{
+    width: 80vw;
+    background-color: #0b2543;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    margin: 0 auto;
+}
+.produto{
+    width: 250px;
+    background-color: #0b2543;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.produto p{
+    font-size: 12px;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 2px 5px;
+    margin: 0;
+}
+footer{
+    text-align: center;
+}
+footer a{
+    color: #ab7d27;
+}

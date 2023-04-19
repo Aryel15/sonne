@@ -1,0 +1,61 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #081B31;
+  color: #C3AC81;
+}
+nav{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  text-align: center;
+}
+h3{
+  margin-bottom: 10px;
+}
+button{
+  margin-top: 5px;
+  width: 214px;
+  color: #081B31;
+  background-color: #C3AC81;
+  border: none;
+  border-radius: 2px;
+  padding: 10px;
+  transition: 0.7s all;
+}
+button:hover{
+  cursor: pointer;
+  background-color: #be974e;
+}
+input{
+  width: 200px;
+  padding: 5px;
+  background-color: #081B31;
+  border-color: #162231 solid 1px;
+  color: #C3AC81;
+  margin: 2px 0 5px 0;
+}
+.instruções{
+  width: 80vw;
+  background-color: #0b2543;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
